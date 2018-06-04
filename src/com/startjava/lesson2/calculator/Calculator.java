@@ -11,7 +11,7 @@ class Calculator {
     private boolean isRunning = true;
     private String splittedExpression[] = new String[3];
 
-    void start () {
+    public void start () {
         printInfo();
         while (isRunning) {
             Arrays.fill(splittedExpression, "");

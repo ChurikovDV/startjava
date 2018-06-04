@@ -4,16 +4,16 @@ class Player {
 
     private String name;
 
-    Player(String name) {
+    public Player(String name) {
         this.name = name;
     }
 
-    int tryToGuess() {
+    public int tryToGuess() {
         System.out.print(this.name + ", введите ваш вариант: ");
         return Players.readInt();
     }
 
-    String getName() {
+    public String getName() {
         return name;
     }
 
